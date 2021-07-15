@@ -1,1 +1,2 @@
-find ${PWD}/${BASEDIR}/common_source/ -maxdepth 1 -type l -delete
+BASEDIR=$(dirname $0)
+rm ${PWD}/${BASEDIR}/common_source/loadable_apps
